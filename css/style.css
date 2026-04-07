@@ -1,6 +1,8 @@
-body {
+body { 
   background-color: white !important;
+  color: black !important;
 }
+
 /* Reset default spacing */
 * {
   margin: 0;
@@ -11,8 +13,8 @@ body {
 /* Body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #0d0d0d;
-  color: #f5f5f5;
+  background-color: white !important;
+  color: black !important;
   line-height: 1.6;
 }
 
@@ -33,10 +35,11 @@ header {
 header h1 {
   font-size: 2.5rem;
   letter-spacing: 2px;
+  color: black;
 }
 
 header p {
-  color: #aaa;
+  color: black;
 }
 
 /* Navigation */
@@ -46,7 +49,7 @@ nav {
 }
 
 nav a {
-  color: #f5f5f5;
+  color: black;
   margin: 0 15px;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -59,6 +62,7 @@ nav a:hover {
 /* Sections */
 section {
   margin-bottom: 50px;
+  color: black;
 }
 
 h2 {
@@ -66,11 +70,13 @@ h2 {
   border-bottom: 2px solid #ff4c4c;
   display: inline-block;
   padding-bottom: 5px;
+  color: black;
 }
 
 /* Project cards */
 .project {
-  background: #1a1a1a;
+  background: #f5f5f5; /* changed from dark to light so black text is readable */
+  color: black;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -93,10 +99,5 @@ h2 {
 footer {
   text-align: center;
   padding: 20px;
-  color: #777;
-}
-
-/* About Me text color */
-#about p {
   color: black;
 }
